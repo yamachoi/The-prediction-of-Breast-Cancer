@@ -24,11 +24,11 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 | 3 | Uniformity of Cell Size       |1 - 10|Cancer cells tend to vary in size and shape|
 | 4 | Uniformity of Cell Shape      |1 - 10|Cancer cells tend to vary in shape and size|
 | 5 | Marginal Adhesion             |1 - 10|Normal cells tend to stick together while cancer cells tend to lose this ability, so the loss of adhesion is a sign of malignancy|
-| 6 | Single Epithelial Cell Size   |1 - 10|
-| 7 | Bare Nuclei                   |1 - 10|Nucleoli that not surrounded by cytoplasm|
-| 8 | Bland Chromatin               |1 - 10|
-| 9 | Normal Nucleoli               |1 - 10|No nucleolus, fine nucleolus, prominent nucleolus and multiple nucleoli present|
-| 10 | Mitoses                      |1 - 10|Nuclear division in cells
+| 6 | Single Epithelial Cell Size   |1 - 10|It is related to the uniformity mentioned above. Epithelial cells that are significantly enlarged may be a malignant cell|
+| 7 | Bare Nuclei                   |1 - 10|This is a term used for nuclei not surrounded by cytoplasm (the rest of the cell). Those are typically seen in benign tumors|
+| 8 | Bland Chromatin               |1 - 10|Describes a uniform "texture" of the nucleus seen in benign cells. In cancer cells, the chromatin tends to be more coarse and to form clumps|
+| 9 | Normal Nucleoli               |1 - 10|Nucleoli are small structures seen in the nucleus. In normal cells, the nucleolus is usually very small if visible at all. The nucleoli become more prominent in cancer cells, and sometimes there are multiple|
+| 10 | Mitoses                      |1 - 10|Cancer is essentially a disease of uncontrolled mitosis|
 | 11 | Class                        |(2 for benign, 4 for malignant)|
 
 
