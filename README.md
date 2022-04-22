@@ -18,7 +18,7 @@ The databases was obtained from the University of Wisconsin Hospitals, Madison f
 ## 2. Attributes
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute
 |  | Attribute| Domain| Desciption|
-|-----------|-----------|-----------|-----------|
+|:-----------:|:-----------:|:-----------:|-----------|
 | 1 | Sample code number |id number|
 | 2 | Clump Thickness               |1 - 10|
 | 3 | Uniformity of Cell Size|       1 - 10|
@@ -28,8 +28,8 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 | 7 | Bare Nuclei                 |  1 - 10|
 | 8 | Bland Chromatin              | 1 - 10|
 | 9 | Normal Nucleoli               |1 - 10|
-|10 | Mitoses                       |1 - 10|
-|11 | Class:                        |(2 for benign, 4 for malignant)|
+| 10 | Mitoses                       |1 - 10|
+| 11 | Class:                        |(2 for benign, 4 for malignant)|
 
 
 ## 2. Prerequisites
