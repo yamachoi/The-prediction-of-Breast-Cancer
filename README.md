@@ -21,14 +21,14 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 |:-----------:|:-----------|:-----------:|:-----------|
 | 1 | Sample code number|  |id number|
 | 2 | Clump Thickness               |1 - 10|The number of layers of the smear sample|
-| 3 | Uniformity of Cell Size       |1 - 10|
-| 4 | Uniformity of Cell Shape      |1 - 10|
+| 3 | Uniformity of Cell Size       |1 - 10|The cell size measurement of a group of cells appear in different cell |
+| 4 | Uniformity of Cell Shape      |1 - 10|The cell shape measurement of a group of cells appear in different cell |
 | 5 | Marginal Adhesion             |1 - 10|
 | 6 | Single Epithelial Cell Size   |1 - 10|
-| 7 | Bare Nuclei                   |1 - 10|Nucleoli not surrounded by their perspective cytoplasts,symbolizes the benignity of the cell|
+| 7 | Bare Nuclei                   |1 - 10|Nucleoli not surrounded by their perspective cytoplasts|
 | 8 | Bland Chromatin               |1 - 10|
-| 9 | Normal Nucleoli               |1 - 10|
-| 10 | Mitoses                      |1 - 10|
+| 9 | Normal Nucleoli               |1 - 10|No nucleolus, fine nucleolus, prominent nucleolus and multiple nucleoli present|
+| 10 | Mitoses                      |1 - 10|Nuclear division in cells
 | 11 | Class                        |(2 for benign, 4 for malignant)|
 
 
