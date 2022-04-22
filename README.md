@@ -29,7 +29,7 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 | 8 | Bland Chromatin               |1 - 10|Describes a uniform "texture" of the nucleus seen in benign cells. In cancer cells, the chromatin tends to be more coarse and to form clumps|
 | 9 | Normal Nucleoli               |1 - 10|Nucleoli are small structures seen in the nucleus. In normal cells, the nucleolus is usually very small if visible at all. The nucleoli become more prominent in cancer cells, and sometimes there are multiple|
 | 10 | Mitoses                      |1 - 10|Cancer is essentially a disease of uncontrolled mitosis|
-| 11 | Class                        |(2 for benign, 4 for malignant)|
+| 11 | Class                        |2,4|2 for benign, 4 for malignant|
 
 
 ## 2. Prerequisites
