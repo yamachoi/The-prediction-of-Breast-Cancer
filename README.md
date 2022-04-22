@@ -33,7 +33,7 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 
 
 ## 2. Prerequisites
-### We use python to code this project. Below are the packages/libraries needed:
+We use python to code this project. Below are the packages/libraries needed:
      import numpy as np
      import pandas as pd
      from pandas import DataFrame
