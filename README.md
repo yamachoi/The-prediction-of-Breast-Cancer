@@ -13,8 +13,8 @@ The databases was obtained from the University of Wisconsin Hospitals, Madison f
      Group 7:  31 instances (June 1991)
      Group 8:  86 instances (November 1991)
      -----------------------------------------
-     Total:   699 points (as of the donated datbase on 15 July 1992), 
-     class distribution is 458 (65.5%) Benign  and 241 (34.5%) Malignant.
+     Total:   699 points (as of the donated datbase on 15 July 1992) 
+     Class distribution : 458 (65.5%) Benign , 241 (34.5%) Malignant.
 Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)).
 
 ## 2. Attributes
@@ -53,7 +53,13 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
      from sklearn.metrics import confusion_matrix, accuracy_score,classification_report
      import seaborn as sns
 
-## 3. 
+## 3. Tasks
+* The most important cytology feature
+* The best predictive model
+
+## 4. Methods
+The models we used show as below.
+
 
 ## License:
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
