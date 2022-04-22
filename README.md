@@ -19,16 +19,16 @@ The databases was obtained from the University of Wisconsin Hospitals, Madison f
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute
 |  | Attribute| Domain| Desciption|
 |:-----------:|:-----------|:-----------:|:-----------|
-| 1 | Sample code number |id number|
+| 1 | Sample code number|  |id number|
 | 2 | Clump Thickness               |1 - 10|The number of layers of the smear sample|
-| 3 | Uniformity of Cell Size|       1 - 10|
-| 4 | Uniformity of Cell Shape|      1 - 10|
-| 5 | Marginal Adhesion        |     1 - 10|
-| 6 | Single Epithelial Cell Size|   1 - 10|
-| 7 | Bare Nuclei                 |  1 - 10|
-| 8 | Bland Chromatin              | 1 - 10|
+| 3 | Uniformity of Cell Size       |1 - 10|
+| 4 | Uniformity of Cell Shape      |1 - 10|
+| 5 | Marginal Adhesion             |1 - 10|
+| 6 | Single Epithelial Cell Size   |1 - 10|
+| 7 | Bare Nuclei                   |1 - 10|Nucleoli not surrounded by their perspective cytoplasts,symbolizes the benignity of the cell|
+| 8 | Bland Chromatin               |1 - 10|
 | 9 | Normal Nucleoli               |1 - 10|
-| 10 | Mitoses                       |1 - 10|
+| 10 | Mitoses                      |1 - 10|
 | 11 | Class                        |(2 for benign, 4 for malignant)|
 
 
@@ -45,3 +45,4 @@ This dataset is licensed under a Creative Commons Attribution 4.0 International 
 2. William H. Wolberg and O.L. Mangasarian: "Multisurface method of pattern separation for medical diagnosis applied to breast cytology", Proceedings of the National Academy of Sciences, U.S.A., Volume 87, December 1990, pp 9193-9196.
 3. O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear programming: Theory and application to medical diagnosis", in: "Large-scale numerical optimization", Thomas F. Coleman and Yuying Li, editors, SIAM Publications, Philadelphia 1990, pp 22-30.
 4. K. P. Bennett & O. L. Mangasarian: "Robust linear programming discrimination of two linearly inseparable sets", Optimization Methods and Software 1, 1992, 23-34 (Gordon & Breach Science Publishers).
+5. Ashidi, N., Isa, M., Subramaniam, E., Mashor, M.Y., & Othman, N.H. (2007). Fine Needle Aspiration Cytology Evaluation for Classifying Breast Cancer Using Artificial Neural Network. American Journal of Applied Sciences, 4, 999-1008.
