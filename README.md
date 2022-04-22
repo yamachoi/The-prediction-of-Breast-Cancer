@@ -20,12 +20,12 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 |  | Attribute| Domain| Desciption|
 |:-----------:|:-----------|:-----------:|:-----------|
 | 1 | Sample code number|  |id number|
-| 2 | Clump Thickness               |1 - 10|The number of layers of the smear sample|
-| 3 | Uniformity of Cell Size       |1 - 10|The cell size measurement of a group of cells appear in different cell |
-| 4 | Uniformity of Cell Shape      |1 - 10|The cell shape measurement of a group of cells appear in different cell |
-| 5 | Marginal Adhesion             |1 - 10|
+| 2 | Clump Thickness               |1 - 10|Benign cells tend to be grouped in monolayers, while cancerous cells are often grouped in multilayers|
+| 3 | Uniformity of Cell Size       |1 - 10|Cancer cells tend to vary in size and shape|
+| 4 | Uniformity of Cell Shape      |1 - 10|Cancer cells tend to vary in shape and size|
+| 5 | Marginal Adhesion             |1 - 10|Normal cells tend to stick together while cancer cells tend to lose this ability, so the loss of adhesion is a sign of malignancy|
 | 6 | Single Epithelial Cell Size   |1 - 10|
-| 7 | Bare Nuclei                   |1 - 10|Nucleoli not surrounded by their perspective cytoplasts|
+| 7 | Bare Nuclei                   |1 - 10|Nucleoli that not surrounded by cytoplasm|
 | 8 | Bland Chromatin               |1 - 10|
 | 9 | Normal Nucleoli               |1 - 10|No nucleolus, fine nucleolus, prominent nucleolus and multiple nucleoli present|
 | 10 | Mitoses                      |1 - 10|Nuclear division in cells
