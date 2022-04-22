@@ -20,20 +20,38 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 |  | Attribute| Domain| Desciption|
 |:-----------:|:-----------|:-----------:|:-----------|
 | 1 | Sample code number|  |id number|
-| 2 | Clump Thickness               |1 - 10|Benign cells tend to be grouped in monolayers, while cancerous cells are often grouped in multilayers|
+| 2 | Clump Thickness               |1 - 10|Benign cells tend to be grouped in monolayers, while cancerous cells often in multilayers|
 | 3 | Uniformity of Cell Size       |1 - 10|Cancer cells tend to vary in size and shape|
 | 4 | Uniformity of Cell Shape      |1 - 10|Cancer cells tend to vary in shape and size|
-| 5 | Marginal Adhesion             |1 - 10|Normal cells tend to stick together while cancer cells tend to lose this ability, so the loss of adhesion is a sign of malignancy|
-| 6 | Single Epithelial Cell Size   |1 - 10|It is related to the uniformity mentioned above. Epithelial cells that are significantly enlarged may be a malignant cell|
-| 7 | Bare Nuclei                   |1 - 10|This is a term used for nuclei not surrounded by cytoplasm (the rest of the cell). Those are typically seen in benign tumors|
-| 8 | Bland Chromatin               |1 - 10|Describes a uniform "texture" of the nucleus seen in benign cells. In cancer cells, the chromatin tends to be more coarse and to form clumps|
-| 9 | Normal Nucleoli               |1 - 10|Nucleoli are small structures seen in the nucleus. In normal cells, the nucleolus is usually very small if visible at all. The nucleoli become more prominent in cancer cells, and sometimes there are multiple|
-| 10 | Mitoses                      |1 - 10|Cancer is essentially a disease of uncontrolled mitosis|
+| 5 | Marginal Adhesion             |1 - 10|Normal cells tend to stick together while cancer cells tend to lose|
+| 6 | Single Epithelial Cell Size   |1 - 10|Related to the uniformity mentioned above. Epithelial cells that significantly enlarged may be a malignant cell|
+| 7 | Bare Nuclei                   |1 - 10|Nuclei not surrounded by cytoplasm (the rest of the cell). Those are typically seen in benign tumors|
+| 8 | Bland Chromatin               |1 - 10|Malignant cells are coarse while the benign cells display a very fine nucleus|
+| 9 | Normal Nucleoli               |1 - 10|Malignant cells have prominent nucleolus and in certain cases have more than one nucleolus|
+| 10 | Mitoses                      |1 - 10|Malignant cells tend to have higher mitotic activities|
 | 11 | Class                        |2,4|2 for benign, 4 for malignant|
 
 
 ## 2. Prerequisites
+### We use python to code this project. Below are the packages/libraries needed.
+import numpy as np
+import pandas as pd
+from pandas import DataFrame
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.impute import SimpleImputer
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.inspection import permutation_importance
+from sklearn.decomposition import PCA
 
+
+from tensorflow.keras import Sequential
+import tensorflow.keras.layers as L
+import tensorflow as tf
+from sklearn.metrics import confusion_matrix, accuracy_score,classification_report
+import seaborn as sns
 
 ## 3. 
 
