@@ -58,7 +58,10 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 * The best predictive model
 
 ## 4. Methods
-The models we used show as below.
+* Data processing
+* Feature engineering
+* Model building: the models we used shown as below.
+
 
 
 ## License:
