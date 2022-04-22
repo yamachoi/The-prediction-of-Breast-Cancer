@@ -2,7 +2,7 @@
 
 
 ## 1. Database description
-The databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. Samples arrived periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronological grouping of the data.
+The databases was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg. Samples arrived periodically as Dr. Wolberg reports his clinical cases. The database therefore reflects this chronological grouping of the data. The database contains missing values denoted by "?". 
 ### This grouping information :
      Group 1: 367 instances (January 1989)
      Group 2:  70 instances (October 1989)
@@ -13,8 +13,7 @@ The databases was obtained from the University of Wisconsin Hospitals, Madison f
      Group 7:  31 instances (June 1991)
      Group 8:  86 instances (November 1991)
      -----------------------------------------
-     Total:   699 points (as of the donated datbase on 15 July 1992)
-
+     Total:   699 points (as of the donated datbase on 15 July 1992), class distribution is 458 (65.5%) Benign  and 241 (34.5%) Malignant.
 Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)).
 
 ## 2. Attributes
