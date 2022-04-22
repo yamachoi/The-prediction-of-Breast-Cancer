@@ -33,18 +33,18 @@ Features are computed from a digitized image of a fine needle aspirate (FNA) of 
 
 
 ## 2. Prerequisites
-### We use python to code this project. Below are the packages/libraries needed.
-import numpy as np
-import pandas as pd
-from pandas import DataFrame
-import matplotlib.pyplot as plt
-import seaborn as sns
-from sklearn.impute import SimpleImputer
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.inspection import permutation_importance
-from sklearn.decomposition import PCA
+We use python to code this project. Below are the packages/libraries needed.
+     import numpy as np
+     import pandas as pd
+     from pandas import DataFrame
+     import matplotlib.pyplot as plt
+     import seaborn as sns
+     from sklearn.impute import SimpleImputer
+     from sklearn.model_selection import train_test_split
+     from sklearn.preprocessing import StandardScaler
+     from sklearn.ensemble import RandomForestClassifier
+     from sklearn.inspection import permutation_importance
+     from sklearn.decomposition import PCA
 
 
 from tensorflow.keras import Sequential
