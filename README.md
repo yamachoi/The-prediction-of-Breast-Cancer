@@ -21,15 +21,15 @@ Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisc
 Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute
 |  | Attribute| Domain| Desciption|
 |:-----------:|:-----------|:-----------:|:-----------|
-| 1 | Sample code number|  |id number|
-| 2 | Clump Thickness               |1 - 10|Benign cells tend to be grouped in monolayers, while cancerous cells often in multilayers|
-| 3 | Uniformity of Cell Size       |1 - 10|Cancer cells tend to vary in size and shape|
-| 4 | Uniformity of Cell Shape      |1 - 10|Cancer cells tend to vary in shape and size|
-| 5 | Marginal Adhesion             |1 - 10|Normal cells tend to stick together while cancer cells tend to lose|
-| 6 | Single Epithelial Cell Size   |1 - 10|Related to the uniformity mentioned above. Epithelial cells that significantly enlarged may be a malignant cell|
-| 7 | Bare Nuclei                   |1 - 10|Nuclei not surrounded by cytoplasm (the rest of the cell). Those are typically seen in benign tumors|
-| 8 | Bland Chromatin               |1 - 10|Malignant cells are coarse while the benign cells display a very fine nucleus|
-| 9 | Normal Nucleoli               |1 - 10|Malignant cells have prominent nucleolus and in certain cases have more than one nucleolus|
+| 1 | Sample code number(id)|  |id number|
+| 2 | Clump Thickness(clp_thickness)|1 - 10|Benign cells tend to be grouped in monolayers, while cancerous cells often in multilayers|
+| 3 | Uniformity of Cell Size(c_size)|1 - 10|Cancer cells tend to vary in size and shape|
+| 4 | Uniformity of Cell Shape(c_shape)|1 - 10|Cancer cells tend to vary in shape and size|
+| 5 | Marginal Adhesion(ma)         |1 - 10|Normal cells tend to stick together while cancer cells tend to lose|
+| 6 | Single Epithelial Cell Size(epi_size)|1 - 10|Related to the uniformity mentioned above. Epithelial cells that significantly enlarged may be a malignant cell|
+| 7 | Bare Nuclei(BN)                   |1 - 10|Nuclei not surrounded by cytoplasm (the rest of the cell). Those are typically seen in benign tumors|
+| 8 | Bland Chromatin(BC)               |1 - 10|Malignant cells are coarse while the benign cells display a very fine nucleus|
+| 9 | Normal Nucleoli(NN)               |1 - 10|Malignant cells have prominent nucleolus and in certain cases have more than one nucleolus|
 | 10 | Mitoses                      |1 - 10|Malignant cells tend to have higher mitotic activities|
 | 11 | Class                        |2,4|2 for benign, 4 for malignant|
 
