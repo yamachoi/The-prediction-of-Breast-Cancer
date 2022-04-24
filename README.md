@@ -60,15 +60,19 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 ## 4. Methods
 We split out works in 3 parts:
 1. Data processing : Null, duplicates
-2. Feature engineering : Feature distribution, correlation, the most important feature
-3. Model building: the models we used shown as below.
+2. Feature engineering : 
+* Feature distribution : Histogram, swarmplot , violinplot
+* Feature correlation : Pairwise Pearson’s correlation
+* The most important feature : Random forest analysis with permutation feature importance
+4. Model building: the models we used shown as below.
 * Model 1:  Logistic Regression
 * Model 2:  Support Vector Machine
 * Model 3:  Decision Tree Classifier
-- 4. Model 4:  Random Forest Classifier
-- 5. Model 5:  Gradient Boosting Classifier
-- 6. Model 6:  XGBoost Classifier
-- 7. Model 7:  K-Nearest Neighbor (KNN) classification
+* Model 4:  Random Forest Classifier
+* Model 5:  Gradient Boosting Classifier
+* Model 6:  XGBoost Classifier
+* Model 7:  K-Nearest Neighbor (KNN) classification
+* Model 8:  Artificial Neural Network (ANN)
 
 ## 5. Results
 
