@@ -75,6 +75,9 @@ We split out works in 3 parts:
 * Model 8:  Artificial Neural Network (ANN)
 
 ## 5. Results
+* cell size and cell shape are reduntant features, better to remove both.
+* TOP 3 important feature : Bare Nuclei (BN), Clump Thickness (clp_th), Normal Nucleoli (NN)
+* The accuracy of models:
 
 ## 6. License:
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
