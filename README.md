@@ -54,29 +54,25 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
      import seaborn as sns
 
 ## 3. Tasks
-* The most important cytology feature
+* The important cytology feature selection
 * The best predictive model
 
 ## 4. Methods
 We split out works in 3 parts:
-1. Data processing : Null, duplicates
+1. Data processing : data cleaning (Null, duplicates), data spliting(train,validate, test)
 2. Feature engineering : 
-* Feature distribution : Histogram, swarmplot , violinplot
-* Feature correlation : Pairwise Pearson’s correlation
-* The most important feature : Random forest analysis with permutation feature importance
+* Feature distribution : Histogram
+* Feature selection : logistic regression
+* The most important feature{?} : Random forest analysis with permutation feature importance
 3. Model building: the models we used shown as below.
 * Model 1:  Logistic Regression
 * Model 2:  Support Vector Machine
-* Model 3:  Decision Tree Classifier
-* Model 4:  Random Forest Classifier
-* Model 5:  Gradient Boosting Classifier
-* Model 6:  XGBoost Classifier
-* Model 7:  K-Nearest Neighbor (KNN) classification
-* Model 8:  Artificial Neural Network (ANN)
+* Model 3:  Random Forest Classifier
+* Model 4:  Gradient Boosting Classifier
+* Model 5:  K-Nearest Neighbor (KNN) classification
 
 ## 5. Results
-* cell size and cell shape are reduntant features, better to remove both.
-* TOP 3 important feature : Bare Nuclei (BN), Clump Thickness (clp_th), Normal Nucleoli (NN)
+
 * The accuracy of models:
 
 ## 6. License:
