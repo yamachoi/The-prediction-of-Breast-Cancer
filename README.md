@@ -18,12 +18,12 @@ The databset was obtained from the University of Wisconsin Hospitals, Madison fr
 Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)).
 ### Or use the code below :
     ! wget --no-check-certificate \
-  'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.names' \
-  -O breast-cancer-wisconsin.names
+    'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.names' \
+     -O breast-cancer-wisconsin.names
 
-   ! wget --no-check-certificate \
-  'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data' \
-  -O breast-cancer-wisconsin.data
+    ! wget --no-check-certificate \
+    'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data' \
+    -O breast-cancer-wisconsin.data
 
 
 ## 2. Attributes
