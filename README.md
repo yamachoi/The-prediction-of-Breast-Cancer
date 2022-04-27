@@ -71,7 +71,7 @@ We split out works in 3 parts:
 1. Data processing : data cleaning (Null, duplicates), data splitting(Training,Validation, Test)
 2. Feature engineering : 
 * Feature distribution : Histogram
-* Feature selection : logistic regression
+* Feature selection : Logistic regression with Recursive feature elimination
 * The most important feature{?} : Random forest analysis with permutation feature importance
 3. Model building: the models we used shown as below.
 * Model 1:  Logistic Regression
