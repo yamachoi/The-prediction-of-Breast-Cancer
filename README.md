@@ -16,6 +16,15 @@ The databset was obtained from the University of Wisconsin Hospitals, Madison fr
      Total:   699 points (as of the donated datbase on 15 July 1992) 
      Class distribution : 458 (65.5%) Benign , 241 (34.5%) Malignant.
 Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)).
+### Or use the code below :
+    ! wget --no-check-certificate \
+  'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.names' \
+  -O breast-cancer-wisconsin.names
+
+   ! wget --no-check-certificate \
+  'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data' \
+  -O breast-cancer-wisconsin.data
+
 
 ## 2. Attributes
 Attributes are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute
@@ -35,7 +44,7 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 
 
 ## 2. Prerequisites
-### We use python to code this project. Below are the packages/libraries needed:
+### We use python(jupyter notebook) to code this project. Below are the packages/libraries needed:
      import numpy as np
      import pandas as pd
      from pandas import DataFrame
@@ -59,7 +68,7 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 
 ## 4. Methods
 We split out works in 3 parts:
-1. Data processing : data cleaning (Null, duplicates), data spliting(train,validate, test)
+1. Data processing : data cleaning (Null, duplicates), data splitting(Training,Validation, Test)
 2. Feature engineering : 
 * Feature distribution : Histogram
 * Feature selection : logistic regression
