@@ -46,7 +46,6 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 ## 2. Prerequisites
 ### We use python(jupyter notebook) to code this project. Below are the packages/libraries needed:
       python                3.7.13
-      Jupyter packages:
       IPython               5.5.0
       ipykernel             4.10.1
       ipywidgets            7.7.0
@@ -66,6 +65,7 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
       sklearn-pandas        1.8.0
       tensorflow            2.8.0
       tensorflow-datasets   4.0.1
+      scipy                 >= 1.6
 
 ## 3. Tasks
 * The important cytology feature selection
