@@ -45,22 +45,16 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 
 ## 2. Prerequisites
 ### We use python(jupyter notebook) to code this project. Below are the packages/libraries needed:
-     import numpy as np
-     import pandas as pd
-     from pandas import DataFrame
-     import matplotlib.pyplot as plt
-     import seaborn as sns
-     from sklearn.impute import SimpleImputer
-     from sklearn.model_selection import train_test_split
-     from sklearn.preprocessing import StandardScaler
-     from sklearn.ensemble import RandomForestClassifier
-     from sklearn.inspection import permutation_importance
-     from sklearn.decomposition import PCA
-     from tensorflow.keras import Sequential
-     import tensorflow.keras.layers as L
-     import tensorflow as tf
-     from sklearn.metrics import confusion_matrix, accuracy_score,classification_report
-     import seaborn as sns
+      python      3.7.13
+      numpy                         1.21.6
+      pandas                         1.3.5
+      matplotlib                    3.2.2
+      seaborn                        0.11.2
+sklearn                          0.0
+sklearn-pandas             1.8.0
+tensorflow                     2.8.0
+tensorflow-datasets      4.0.1
+xgboost                         0.90
 
 ## 3. Tasks
 * The important cytology feature selection
