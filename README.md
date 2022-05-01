@@ -27,7 +27,7 @@ Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisc
 
 
 ## 2. Attributes
-Attributes are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute
+Attributes are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at http://www.cs.wisc.edu/~street/images/. Number of Attributes is 10 plus the class attribute. The cytological characteristics of breast FNAs were valued on a scale of 1 to 10 with 1 being the closest to benign and 10 the most anaplastic.
 |  | Attribute| Domain| Desciption|
 |:-----------:|:-----------|:-----------:|:-----------|
 | 1 | Sample code number (id)|  |id number|
