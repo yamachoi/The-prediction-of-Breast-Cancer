@@ -85,14 +85,10 @@ We split out works in 3 parts:
 * Model 4:  Gradient Boosting Classifier
 * Model 5:  K-Nearest Neighbor (KNN) classification
 
-## 5. Results
-
-* The accuracy of models:
-
-## 6. License:
+## 5. License:
 This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license.
 
-## 7. Citation:
+## 6. Citation:
 1. O. L. Mangasarian and W. H. Wolberg: "Cancer diagnosis via linear programming", SIAM News, Volume 23, Number 5, September 1990, pp 1 & 18.
 2. William H. Wolberg and O.L. Mangasarian: "Multisurface method of pattern separation for medical diagnosis applied to breast cytology", Proceedings of the National Academy of Sciences, U.S.A., Volume 87, December 1990, pp 9193-9196.
 3. O. L. Mangasarian, R. Setiono, and W.H. Wolberg: "Pattern recognition via linear programming: Theory and application to medical diagnosis", in: "Large-scale numerical optimization", Thomas F. Coleman and Yuying Li, editors, SIAM Publications, Philadelphia 1990, pp 22-30.
