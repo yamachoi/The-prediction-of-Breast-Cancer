@@ -16,7 +16,7 @@ The databset was obtained from the University of Wisconsin Hospitals, Madison fr
      Total:   699 points (as of the donated datbase on 15 July 1992) 
      Class distribution : 458 (65.5%) Benign , 241 (34.5%) Malignant.
 Access to the dataset(https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(original)).
-### Or use the codes below :
+### Or use the codes below if run it in colab:
      ! wget --no-check-certificate \
     'https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.names' \
      -O breast-cancer-wisconsin.names
