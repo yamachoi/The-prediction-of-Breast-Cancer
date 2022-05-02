@@ -44,7 +44,7 @@ Attributes are computed from a digitized image of a fine needle aspirate (FNA) o
 
 
 ## 2. Prerequisites
-### Use jupyter notebook(python) to open this project. Followings are the packages/libraries needed:
+### Use jupyter notebook/colab (python) to open this project. Followings are the packages/libraries needed:
       python                3.7.13
       jupyter               1.0.0
       IPython               5.5.0
